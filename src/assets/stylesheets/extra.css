@@ -124,3 +124,81 @@
     padding-top: 0.7rem;
   }
 }
+
+/* Reader mode: expands the article and hides navigation chrome for focused reading. */
+.ov-reader-toggle {
+  align-items: center;
+  background: var(--md-primary-fg-color);
+  border: 0;
+  border-radius: 999px;
+  bottom: 1.4rem;
+  box-shadow: 0 0.45rem 1.4rem rgba(15, 23, 42, 0.18);
+  color: var(--md-primary-bg-color);
+  cursor: pointer;
+  display: flex;
+  font: 700 0.72rem/1.2 var(--md-text-font-family);
+  gap: 0.35rem;
+  letter-spacing: 0.01em;
+  padding: 0.62rem 0.85rem;
+  position: fixed;
+  right: 1.2rem;
+  z-index: 20;
+}
+
+.ov-reader-toggle:hover {
+  background: var(--md-accent-fg-color);
+}
+
+.ov-reader-toggle:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--md-accent-fg-color) 45%, white);
+  outline-offset: 3px;
+}
+
+.ov-reader-toggle__icon {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+body.ov-reader-mode .md-sidebar,
+body.ov-reader-mode .md-sidebar--primary,
+body.ov-reader-mode .md-sidebar--secondary {
+  display: none;
+}
+
+body.ov-reader-mode .md-main__inner {
+  max-width: none;
+}
+
+body.ov-reader-mode .md-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: min(100vw - 3rem, 94rem);
+}
+
+body.ov-reader-mode .md-content__inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: min(100%, 88rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+body.ov-reader-mode .md-content__inner > h1:first-child {
+  max-width: 70rem;
+}
+
+body.ov-reader-mode .md-typeset img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: min(100%, 92rem);
+}
+
+@media screen and (max-width: 76.234375em) {
+  .ov-reader-toggle {
+    bottom: 1rem;
+    font-size: 0.68rem;
+    padding: 0.55rem 0.72rem;
+    right: 0.85rem;
+  }
+}

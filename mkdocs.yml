@@ -1,6 +1,7 @@
 site_name: OVTeleport Foundation
 site_description: Tài liệu nền tảng về OVTeleport Agent Runtime.
 site_url: https://oviots.github.io/ovteleport-foundation/
+copyright: Copyright © 2026 All Rights Reserved
 repo_name: oviots/ovteleport-foundation
 repo_url: https://github.com/oviots/ovteleport-foundation
 docs_dir: src
@@ -48,5 +49,11 @@ markdown_extensions:
 plugins:
   - search
 
+extra:
+  generator: false
+
 extra_css:
   - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/reader-mode.js
