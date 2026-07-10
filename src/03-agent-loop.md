@@ -2,14 +2,14 @@
 
 ## Mục tiêu
 
-Sau bài này, người học cần hiểu được:
+Sau phần này, người học cần hiểu được:
 
 1. Agent Loop là gì và vì sao nó là lõi của OVTeleport.
 2. Năm phase `Plan`, `Act`, `Observe`, `Reflect`, `Respond` khác nhau thế nào.
 3. Vì sao agent cần lặp thay vì trả lời ngay.
 4. Khi nào loop nên tiếp tục, khi nào nên dừng và trả final response.
 
-Bài 02 đã đặt Agent Loop ở trung tâm core flow. Bài này đi sâu vào chính vòng lặp đó.
+Phần Core Flow đã đặt Agent Loop ở trung tâm runtime. Phần này đi sâu vào chính vòng lặp đó.
 
 ## Vì sao cần Agent Loop?
 

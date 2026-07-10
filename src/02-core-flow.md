@@ -2,14 +2,14 @@
 
 ## Mục tiêu
 
-Sau bài này, người học cần nắm được:
+Sau phần này, người học cần nắm được:
 
 1. Request của user đi vào OVTeleport như thế nào.
 2. Vì sao `Agent Loop` là trung tâm của runtime.
 3. Tool calls, Memory / Context và LLM Provider phối hợp với Agent Loop ra sao.
 4. Vì sao Final Response là kết quả tổng hợp, không phải log thô hoặc câu trả lời trực tiếp từ model.
 
-Bài 01 giúp trả lời câu hỏi “OVTeleport là gì?”. Bài 02 trả lời câu hỏi tiếp theo: **khi user gửi một request, OVTeleport xử lý request đó qua những thành phần nào?**
+Phần trước giúp trả lời câu hỏi “OVTeleport là gì?”. Phần này trả lời câu hỏi tiếp theo: **khi user gửi một request, OVTeleport xử lý request đó qua những thành phần nào?**
 
 ## Ý tưởng trung tâm
 
@@ -226,4 +226,4 @@ Tool / Context / LLM hỗ trợ.
 Final Response là synthesis.
 ```
 
-Nếu bài 01 giúp phân biệt OVTeleport với chatbot, thì bài 02 cho thấy sự khác biệt đó được tổ chức thành core runtime flow như thế nào.
+Nếu phần đầu giúp phân biệt OVTeleport với chatbot, thì phần này cho thấy sự khác biệt đó được tổ chức thành core runtime flow như thế nào.

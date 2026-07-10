@@ -2,13 +2,13 @@
 
 ## Mục tiêu
 
-Sau bài này, người học cần trả lời được ba câu hỏi:
+Sau phần này, người học cần trả lời được ba câu hỏi:
 
 1. OVTeleport là gì?
 2. Vì sao OVTeleport khác chatbot thường?
 3. Khi nào một task cần agent runtime thay vì chỉ cần hỏi LLM trực tiếp?
 
-Đây là bài mở đầu. Mục tiêu chưa phải đi sâu vào implementation, mà là xây đúng mental model trước khi học core flow, agent loop, tool calls, memory và permission.
+Đây là phần mở đầu. Mục tiêu chưa phải đi sâu vào implementation, mà là xây đúng mental model trước khi học core flow, agent loop, tool calls, memory và permission.
 
 ## Vấn đề bắt đầu từ đâu?
 

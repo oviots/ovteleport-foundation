@@ -2,14 +2,14 @@
 
 ## Mục tiêu
 
-Sau bài này, người học cần hiểu được:
+Sau phần này, người học cần hiểu được:
 
 1. Tool calls là gì trong OVTeleport.
 2. Vì sao LLM không nên tự được xem là “đã đọc file” hoặc “đã chạy command”.
 3. Runtime boundary kiểm soát tool call như thế nào.
 4. Vì sao tool result phải quay lại Agent Loop dưới dạng observation.
 
-Bài 03 đã nói về `Act` và `Observe` trong Agent Loop. Bài này đi sâu vào một loại action quan trọng nhất: **tool call**.
+Phần Agent Loop đã nói về `Act` và `Observe`. Phần này đi sâu vào một loại action quan trọng nhất: **tool call**.
 
 ## Tool calls là gì?
 

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">QA/QC AI Guide logo</title>
+  <desc id="desc">A compact logo for the QA/QC AI Guide documentation site.</desc>
+  <rect width="96" height="96" rx="22" fill="#0f172a"/>
+  <path d="M25 48c0-12.7 10.3-23 23-23s23 10.3 23 23-10.3 23-23 23-23-10.3-23-23Z" fill="#14b8a6"/>
+  <path d="M33 48c0-8.3 6.7-15 15-15s15 6.7 15 15-6.7 15-15 15-15-6.7-15-15Z" fill="#f8fafc"/>
+  <path d="M45 25h6v12h-6V25Zm0 34h6v12h-6V59Zm14-3.2 8.5 8.5-4.2 4.2-8.5-8.5 4.2-4.2ZM28.5 31.7l4.2-4.2 8.5 8.5-4.2 4.2-8.5-8.5ZM59 40.2l-4.2-4.2 8.5-8.5 4.2 4.2-8.5 8.5ZM28.5 64.3l8.5-8.5 4.2 4.2-8.5 8.5-4.2-4.2Z" fill="#38bdf8"/>
+  <circle cx="48" cy="48" r="5" fill="#0f172a"/>
+</svg>

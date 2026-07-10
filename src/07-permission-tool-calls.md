@@ -2,7 +2,7 @@
 
 ## Mục tiêu
 
-Sau bài này, người học cần hiểu được:
+Sau phần này, người học cần hiểu được:
 
 1. Vì sao tool calls cần permission boundary.
 2. Permission nằm ở đâu trong flow execute tool.
@@ -10,7 +10,7 @@ Sau bài này, người học cần hiểu được:
 4. Vì sao `approve always` phải scoped hẹp.
 5. Permission decision cần được audit ra sao.
 
-Bài 04 đã nói tool calls là cầu nối giữa model và môi trường thật. Bài này tập trung vào phần bảo vệ cầu nối đó: **không phải tool call nào cũng được chạy ngay**.
+Phần Tool Calls đã nói tool calls là cầu nối giữa model và môi trường thật. Phần này tập trung vào phần bảo vệ cầu nối đó: **không phải tool call nào cũng được chạy ngay**.
 
 ## Ý tưởng trung tâm
 

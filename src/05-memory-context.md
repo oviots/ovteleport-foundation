@@ -2,14 +2,14 @@
 
 ## Mục tiêu
 
-Sau bài này, người học cần hiểu được:
+Sau phần này, người học cần hiểu được:
 
 1. `Memory` và `Context` khác nhau thế nào.
 2. Vì sao không nên nhồi toàn bộ dữ liệu vào model.
 3. Context Manager chọn thông tin cho Agent Loop ra sao.
 4. Working Memory, Model Context và Session Context có vai trò gì.
 
-Bài 04 đã nói tool calls tạo ra evidence. Bài này trả lời câu hỏi tiếp theo: **evidence, history và rules được đưa vào agent như thế nào để model dùng đúng lúc, không bị quá tải?**
+Phần Tool Calls đã nói tool calls tạo ra evidence. Phần này trả lời câu hỏi tiếp theo: **evidence, history và rules được đưa vào agent như thế nào để model dùng đúng lúc, không bị quá tải?**
 
 ## Ý tưởng trung tâm
 

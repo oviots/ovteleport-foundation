@@ -1,0 +1,52 @@
+site_name: OVTeleport Foundation
+site_description: Tài liệu nền tảng về OVTeleport Agent Runtime.
+site_url: https://oviots.github.io/ovteleport-foundation/
+repo_name: oviots/ovteleport-foundation
+repo_url: https://github.com/oviots/ovteleport-foundation
+docs_dir: src
+site_dir: site
+
+theme:
+  favicon: assets/favicon.ico
+  logo: assets/logo.png
+  name: material
+  language: vi
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+
+nav:
+  - Tổng quan: index.md
+  - Nội dung:
+      - 1. OVTeleport là gì?: 01-ovteleport-overview.md
+      - 2. Core Flow: 02-core-flow.md
+      - 3. Agent Loop: 03-agent-loop.md
+      - 4. Tool Calls: 04-tool-calls.md
+      - 5. Memory / Context: 05-memory-context.md
+      - 6. LLM Provider: 06-llm-provider.md
+      - 7. Permission & Tool Calls: 07-permission-tool-calls.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - meta
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+extra_css:
+  - assets/stylesheets/extra.css

@@ -2,14 +2,14 @@
 
 ## Mục tiêu
 
-Sau bài này, người học cần hiểu được:
+Sau phần này, người học cần hiểu được:
 
 1. LLM Provider đóng vai trò gì trong OVTeleport.
 2. Vì sao LLM không phải toàn bộ agent.
 3. Provider abstraction giúp runtime không bị khóa vào một API cụ thể như thế nào.
 4. Provider contract, adapter, streaming, tool call, error và usage metadata liên quan ra sao.
 
-Bài 05 đã nói về Context Manager: runtime chọn dữ liệu đúng để đưa vào model. Bài này nói về lớp tiếp theo: **runtime gọi model qua provider abstraction như thế nào**.
+Phần Memory / Context đã nói về Context Manager: runtime chọn dữ liệu đúng để đưa vào model. Phần này nói về lớp tiếp theo: **runtime gọi model qua provider abstraction như thế nào**.
 
 ## LLM Provider là gì?
 
@@ -192,7 +192,7 @@ Provider chỉ nhìn thấy phần context runtime đưa vào.
 
 Nếu context thiếu evidence, model có thể đoán. Nếu context quá dài, model có thể nhiễu.
 
-Vì vậy bài 05 và bài 06 liên kết chặt với nhau:
+Vì vậy Memory / Context và LLM Provider liên kết chặt với nhau:
 
 ```text
 Context Manager chọn input đúng.
